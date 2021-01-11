@@ -1,5 +1,7 @@
 module FactorPostProcessing
 
+export svd_logs
+
 using LinearAlgebra, Statistics, LinearAlgebra.BLAS
 using BeastUtils.Logs, BeastUtils.MatrixUtils, BeastUtils.ESS
 
