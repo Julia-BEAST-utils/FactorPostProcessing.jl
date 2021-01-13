@@ -1,6 +1,3 @@
-using FactorPostProcessing
-using Test
+using Test, SafeTestsets
 
-@testset "FactorPostProcessing.jl" begin
-    # Write your tests here.
-end
+@safetestset "FactorPostProcessing.jl test" begin include("svd_tests.jl") end
